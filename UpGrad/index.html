@@ -1,0 +1,35 @@
+<html>
+    <head>
+            <link rel="stylesheet" href="style.css">  
+            <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">  
+    </head>
+        <body>
+<h1> PHONE DIRECTORY </h1>
+
+<div class="cms-table-container" id="cmsTableContainer">
+    <div class="cms-table-row" >
+        <div class="cms-table-column cms-name cms-header">Name</div>
+        <div class="cms-table-column cms-phone cms-header">Phone</div>
+        <div class="cms-table-column cms-header cms-add-entry-column" id="cmsAddNewEntry">Add</div>
+        <div class="cms-table-column cms-header cms-add-entry-column" id="cmsAddNewEntry">Delete</div>
+    </div>
+<span id="tableBody"></span>
+</div>
+<div class="disable-modal" id="backdrop"></div>
+<div class="disable-modal" id="newPersonModal">
+    <h1>Add New Person</h1>
+    <label for="newPersonName">Name</label>
+    <input type="text" id="newPersonName">
+
+    <label for="newPersonPhone">Phone</label>
+    <input type="text" id="newPersonPhone">
+
+    <button id="newPersonCancelBtn">Cancel</button>
+    <button id="newPersonSubmitBtn">Submit</button>
+</div>
+
+            <script src="script.js"></script>
+        </body>
+ 
+</html>
